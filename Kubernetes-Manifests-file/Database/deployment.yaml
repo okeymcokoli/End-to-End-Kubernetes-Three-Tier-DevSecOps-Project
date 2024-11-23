@@ -18,7 +18,7 @@ spec:
         image: mongo:4.4.6
         command:
             # - "numactl"
-            # - "--interleave=all"
+            # - "--interleave=all" #not necessary
             - "mongod"
             - "--wiredTigerCacheSizeGB"
             - "0.1"
